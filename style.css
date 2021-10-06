@@ -1,0 +1,57 @@
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu a {
+    margin: 1% 5% 1% 5%;
+    font-size: 120%;
+}
+
+#visitedSites {
+	display: block;
+	border: 2px solid black;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#output {
+	text-align: center;
+	border: 2px solid black;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#information {
+	text-align: center;
+	border: 2px solid black;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+	/* Uses to remove link color and more */
+  	text-decoration: none;
+}
+
+a:visited {
+	/* Uses to remove link color and more */
+  	text-decoration: none;
+}
+
+a:hover {
+	/* Uses to remove link color and more */
+  	cursor: pointer;
+    color: black;
+}
+
+a:active {
+	/* Uses to remove link color and more */
+  	text-decoration: underline;
+}
